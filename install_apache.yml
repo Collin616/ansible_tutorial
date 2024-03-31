@@ -16,3 +16,13 @@
       apt:
         name: libapache2-mod-php
         state: latest
+
+
+
+# when statement
+# when: ansible_distibution == "ubuntu"
+# add to each play, name: refers to a play name
+# run playbook on certain distros
+# report will indicte fail
+# you can add multiple distros
+# when: ansible_distibution == ["Debian", "Ubuntu"}
